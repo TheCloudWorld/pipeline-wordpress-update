@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+    - echo "This is build phase..."
+  post_build:
+    commands:
+    - echo "Artifacts is getting storing to s3 bucket"
+artifacts:
+  type: zip
+  paths:
+    - '*'
