@@ -1,0 +1,2 @@
+# pipeline-wordpress-update
+pipeline
